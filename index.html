@@ -95,9 +95,9 @@
                                 <i class="header__navbar-icon fa-regular fa-circle-question"></i>
                                 Trợ giúp </a>
                         </li>
-                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí </li>
-                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
-                        <li class="header__navbar-item header__navbar-user">
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate" id="registerBtn">Đăng kí </li>
+                        <li class="header__navbar-item header__navbar-item--strong" id="loginBtn">Đăng nhập</li>
+                        <li class="header__navbar-item header__navbar-user" id="haeder_user" style="display: none;">
                             <img src="./assets/img/user-avt.jpg" alt="" class="header__navbar-user-img">
                             <span class="header__navbar-user-name">Thành Phạm</span>
                             <ul class="header__navbar-user-menu">
@@ -110,7 +110,7 @@
                                 <li class="header__navbar-user-item">
                                     <a href="">Đơn mua</a>
                                 </li>
-                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                <li class="header__navbar-user-item header__navbar-user-item--separate" id="logoutBtn">
                                     <a href="" style="color: rgb(255, 96, 96);">Đăng xuất</a>
                                 </li>
                             </ul>
@@ -274,13 +274,13 @@
             
                             <ul class="category-list">
                                 <li class="category-item category-item--active">
-                                    <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                    <a href="#" class="category-item__link">Quần áo nam</a>
                                 </li>
                                 <li class="category-item">
-                                    <a href="#" class="category-item__link">Mỹ phẩm dưỡng da</a>
+                                    <a href="#" class="category-item__link">Quần nam Hàn Quốc</a>
                                 </li>
                                 <li class="category-item">
-                                    <a href="#" class="category-item__link">Kem dưỡng mi</a>
+                                    <a href="#" class="category-item__link">Áo phao lông vũ</a>
                                 </li>
                                 <li class="category-item">
                                     <a href="#" class="category-item__link">Mỹ phẩm</a>
@@ -348,10 +348,200 @@
                                 <div class="grid__column-2-4">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item_img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lov1er1rh4kbed.webp);"></div>
-                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 01</h4>
+                                        <h4 class="home-product-item_name">Quẩn dài nỉ tăm PN STORE nam nữ cạp chun form suông ống rộng kiểu dáng basic đen be ghi QNI</h4>
                                         <div class="home-product-item_price">
                                             <span class="home-product-item_price_old">1.200.000</span>
-                                            <span class="home-product-item_price_current">900.000đ</span>
+                                            <span class="home-product-item_price_current">450.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">ODIN</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp2.webp);"></div>
+                                        <h4 class="home-product-item_name">Áo Sweater Cổ Lọ GODMOTHER Vải Nỉ 2 Da Có Khoá Cổ Tay Dài Form Rộng Unisex Menswear Phong Cách Hàn Quốc Năng Động</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.000.000</span>
+                                            <span class="home-product-item_price_current">260.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 4,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Uniqilo</span>
+                                            <span class="home-product-item_origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">15%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp4.webp);"></div>
+                                        <h4 class="home-product-item_name">Quần Kaki xếp ly ống rộng QMT vải chính phẩm mềm mịn cạp thiết kế đa năng, quần kaki học sinh form rộng dễ sủ dụng</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">800.000</span>
+                                            <span class="home-product-item_price_current">270.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp3.webp);"></div>
+                                        <h4 class="home-product-item_name">Quần Dài Form Rộng PN-STORE vải nỉ 2da Track Pants Unisex Nam Nữ Local Brand Đứng Form Co Giãn Tốt Menswear Đen Q2DA</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">640.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 1,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">22%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp5.webp);"></div>
+                                        <h4 class="home-product-item_name">Áo Sweater Nỉ Nhung The Bad God Monogram Original Form Boxy Unisex Thu Đông Nhiều Màu  </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">600.000</span>
+                                            <span class="home-product-item_price_current">410.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 4,5k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">TBG</span>
+                                            <span class="home-product-item_origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp7.webp);"></div>
+                                        <h4 class="home-product-item_name">Áo khoác nỉ hoodie zip nam nữ local brand unisex bigsize bông dầy dặn dây kéo có mũ to mặc cặp đôi Pandax Polime Race</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">750.000đ</span>
                                         </div>
                                         <div class="home-product-item_action">
                                             <span class="home-product-item_like home-product-item_like--liked">
@@ -378,6 +568,158 @@
                                         </div>
                                         <div class="home-product-item_sale-off">
                                             <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp6.webp);"></div>
+                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 0Áo Phao Gile GODMOTHER Áo Khoác Phao 2 Túi Sườn Chéo Nam Nữ Menswear Mùa Thu Đông Mẫu Mới Năm 20231</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">2.200.000</span>
+                                            <span class="home-product-item_price_current">790.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 5,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp8.webp);"></div>
+                                        <h4 class="home-product-item_name">Áo Sweater Hàn thêu chữ thu đông Dễ Thương Nam Nữ Unsiex- sweater OVERSIZE vải nỉ lót bông cao cấp GIDI</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">179.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">30%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp9.webp);"></div>
+                                        <h4 class="home-product-item_name">Áo sơ mi đũi nam cổ trụ 2 túi cúc áo sơ mi cổ tàu ZUTEE</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">666.666đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/sp10.webp);"></div>
+                                        <h4 class="home-product-item_name">Quần jean bò baggy nam Xanh RETRO Avocado ống rộng xuông cạp cao nam dáng suông xu hướng</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">174.601đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">20%</span>
                                             <span class="home-product-item_sale-off-label">GIẢM</span>
                                         </div>
                                     </a>
@@ -724,7 +1066,234 @@
                                         </div>
                                     </a>
                                 </div>
-                                
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lov1er1rh4kbed.webp);"></div>
+                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 01</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lov1er1rh4kbed.webp);"></div>
+                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 01</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lov1er1rh4kbed.webp);"></div>
+                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 01</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lov1er1rh4kbed.webp);"></div>
+                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 01</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lov1er1rh4kbed.webp);"></div>
+                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 01</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- item home -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item_img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lov1er1rh4kbed.webp);"></div>
+                                        <h4 class="home-product-item_name">Phấn Nước Ohui Ultimate Fit Longwear Jean Cushion Pink 01</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price_old">1.200.000</span>
+                                            <span class="home-product-item_price_current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like home-product-item_like--liked">
+                                                <i class="home-product-item_like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item_like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item_star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item_sold"> Đã bán 8,8k</span>
+
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">OHUI</span>
+                                            <span class="home-product-item_origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fa-solid fa-check" style="color: white;"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -783,6 +1352,24 @@
                             <li class="footer-item">    
                                 <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
                             </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn bán hàng</a>
+                            </li>    
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Thanh toán</a>
+                            </li>    
+                            <li class="footer-item">    
+                                <a href="" class="footer-item__link">Shopee xu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tickid Mail</a>
+                            </li>    
+                            <li class="footer-item">    
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn bán hàng</a>
+                            </li>   
                         </ul>
                     </div>
 
@@ -798,6 +1385,24 @@
                             <li class="footer-item"> 
                                 <a href="" class="footer-item__link">Điều Khoản chung của shopee</a>
                             </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tầm nhìn và sứ mệnh</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Câu chuyện thương hiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách hợp tác</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Đối tác của Shopee</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tin tức và sự kiện</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trách nhiệm xã hội</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -812,6 +1417,27 @@
                             </li>    
                             <li class="footer-item"> 
                                 <a href="" class="footer-item__link">Mỹ phẩm Hàn Quốc</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giày thể thao nam</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Túi xách nữ cao cấp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Đồng hồ thời trang</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Sách kỹ năng sống</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Đồ điện gia dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Phụ kiện điện thoại</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Đồ chơi trẻ em</a>
                             </li>
                         </ul>
                     </div>
@@ -860,19 +1486,34 @@
 
             <div class="footer__bottom">
                 <div class="grid">
-                    <p class="footer__text">2024 - Khóa học HTML/CSS</p>
+                    <div class="footer__bottom-header">
+                        <a href="" class="footer__bottom-header-text">Chính sách bảo mật</a>
+                        <a href="" class="footer__bottom-header-text">Quy chế hoạt động</a>
+                        <a href="" class="footer__bottom-header-text">Chính sách vận chuyển</a>
+                        <a href="" class="footer__bottom-header-text">Chính sách trả hàng và hoàn tiền</a>
+                    </div>
+
+                    <div class="footer__bottom-img">
+                        <img class="footer__bottom-img-img" src="./assets/img/bocongthuong.png" alt="">
+                    </div>
+
+                    <div class="footer__bottom-footer">
+                        <p class="footer__text">© 2024 - Bản quyền thuộc về 
+                            <a href="https://www.facebook.com/pham.thanh.428800/" class="made_link">PhamThanh</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>
     </div>
 
     <!-- Modal layout -->
-    <!-- <div class="modal">
+    <div class="modal" id="modal" style="display: none;">
         <div class="modal__overlay"></div>
 
-        <div class="modal__body">         -->
+        <div class="modal__body" >         
             <!-- register form -->
-            <!-- <div class="auth-form">
+            <div class="auth-form" id="authForm_rs" style="display: none;">
                 <div class="auth-form__container">
                     <div class="auth-form__header">
                         <h3 class="auth-form__heading">Đăng Ký</h3>
@@ -900,7 +1541,7 @@
                     </div>
 
                     <div class="auth-form__controls">
-                        <button class="btn btn--nomal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--nomal auth-form__controls-back backBtn_rs">TRỞ LẠI</button>
                         <button class="btn btn--primary">ĐĂNG KÝ</button>
                     </div>
                 </div>
@@ -914,10 +1555,10 @@
                         <span class="auth-form__socials-title">Kết nối với Googlek</span>
                     </a>
                 </div>
-            </div> -->
+            </div> 
 
             <!-- login form -->
-            <!-- <div class="auth-form">
+            <div class="auth-form" id="authForm_login" style="display: none;">
                 <div class="auth-form__container">
                     <div class="auth-form__header">
                         <h3 class="auth-form__heading">Đăng Nhập</h3>
@@ -942,8 +1583,8 @@
                     </div>
 
                     <div class="auth-form__controls">
-                        <button class="btn btn--nomal auth-form__controls-back">TRỞ LẠI</button>
-                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        <button class="btn btn--nomal auth-form__controls-back backBtn_rs">TRỞ LẠI</button>
+                        <button class="btn btn--primary" id="login_acp">ĐĂNG NHẬP</button>
                     </div>
                 </div>
                 <div class="auth-form__socials">
@@ -956,10 +1597,59 @@
                         <span class="auth-form__socials-title">Login với Google</span>
                     </a>
                 </div>
-            </div> -->
+            </div>
 
-        <!-- </div>
-    </div> -->
+        </div>
+    </div> 
 
+    <script>
+        const registerBtn = document.getElementById('registerBtn');
+        const loginBtn = document.getElementById('loginBtn');
+        const logoutBtn = document.getElementById('logoutBtn');
+
+        const backBtn_rs = document.getElementsByClassName('backBtn_rs');
+        const modal = document.getElementById('modal');
+
+        const authForm_rs = document.getElementById('authForm_rs');
+        const authForm_login = document.getElementById('authForm_login');
+        const haeder_user = document.getElementById('haeder_user')
+
+        const login_acp = document.getElementById('login_acp')
+        
+        // Khi click vào "Đăng kí"
+        registerBtn.addEventListener('click', function() {
+            modal.style.display = 'flex';
+            authForm_rs.style.display = 'block';
+        });
+        
+        // Khi click vào "Đăng nhập"
+        loginBtn.addEventListener('click', function(){
+            modal.style.display = 'flex';
+            authForm_login.style.display = 'block';
+        });
+
+        //khi click vao "logout"
+        loginBtn.addEventListener('click', function(){
+            registerBtn.style.display = 'block';
+            loginBtn.style.display = 'block';
+        })
+
+        // Khi click vào "TRỞ LẠI"
+        Array.from(backBtn_rs).forEach(btn => {
+            btn.addEventListener('click', function() {
+                modal.style.display = 'none';
+                authForm_login.style.display = 'none';
+                authForm_rs.style.display = 'none';
+            });
+        });
+
+        //xự kiện nut đăng nhập
+        login_acp.addEventListener('click',function(){
+            modal.style.display = 'none';
+            registerBtn.style.display = 'none';
+            loginBtn.style.display = 'none';
+            haeder_user.style.display = 'flex'
+        });
+    </script>
 </body>
 </html>

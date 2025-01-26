@@ -344,6 +344,10 @@
     text-align: center;
 }
 
+.header__notify-footer-btn:hover{
+    color: var(--priamry-color);
+}
+
 /* Authen modal */
 .auth-form{
     width: 500px;
@@ -1299,6 +1303,46 @@ i.home-product-item_like-icon-fill{
     margin-top: 24px;
 }
 
+.footer__bottom-header{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.footer__bottom-header-text{
+    display: inline-block;
+    color: #b2b2b2;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 410;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.footer__bottom-header-text:not(:last-child)::after{
+    content: "";
+    border-right: 2px solid #cbcbcb;
+    position: relative;
+    display: inline-block;
+    left: 12px;
+    height: 20px;
+    transform: translateY(25%);
+}
+
+.footer__bottom-img{
+    margin-top: 40px;
+}
+
+.footer__bottom-img-img{
+    height: 40px;
+    display: flex;
+    margin: auto;
+}
+
+.footer__bottom-footer{
+    margin-top: 40px;
+}
+
 .footer__text{
     margin: 0;
     font-size: 1.4rem;
@@ -1306,6 +1350,7 @@ i.home-product-item_like-icon-fill{
     color: #666;
 }
 
-
-
-
+.made_link{
+    text-decoration: none;
+    color: var(--priamry-color);
+}

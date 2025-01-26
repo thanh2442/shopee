@@ -215,6 +215,10 @@ html{
     margin: 0 12px;
 }
 
+.pagination-item__link:hover{
+    color: var(--priamry-color);
+}
+
 .pagination-item--active .pagination-item__link{
     background-color: #ee4d2d;
     color: white;
@@ -235,3 +239,6 @@ html{
     line-height: 30px;
     border-radius: 2px;
 }
+
+
+
